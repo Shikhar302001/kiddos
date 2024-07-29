@@ -1,0 +1,104 @@
+/* This Is a Css of Navigation Bar */
+
+.navbar-brand img{
+    max-height: 100px;
+
+}
+.navbar-brand {
+    margin-right: 10px; /* Adjust the margin to decrease space */
+}
+.navbar-nav .nav-link {
+    background-color: #ffa530; /* Change nav items background color */
+    border-radius: 20px; /* Add border-radius */
+    color: white; /* Set text color to white */
+    margin-right: 15px; /* Increase space between nav items */
+}
+.navbar-nav .nav-link:hover {
+    background-color: #e69528; /* Slightly darker shade on hover */
+    color: white; /* Maintain text color on hover */
+}
+.dropdown-menu {
+    background-color: #ffa530 !important; /* Change dropdown menu background color */
+    border-radius: 20px; /* Add border-radius to dropdown menu */
+    border: none; /* Remove border */
+}
+.dropdown-menu .dropdown-item {
+    color: white; /* Set dropdown items text color to white */
+}
+.dropdown-menu .dropdown-item:hover {
+    background-color: #e69528; /* Slightly darker shade on hover */
+    color: white; /* Maintain text color on hover */
+}
+.navbar-nav .nav-link:hover,
+        .navbar-nav .nav-link:focus,
+        .navbar-nav .nav-link:active {
+            background-color: #e69528; /* Slightly darker shade on hover */
+            color: white !important; /* Maintain text color on hover */
+}
+.dropdown-menu .dropdown-item:hover,
+        .dropdown-menu .dropdown-item:focus,
+        .dropdown-menu .dropdown-item:active {
+            background-color: #e69528; /* Slightly darker shade on hover */
+            color: white !important; /* Maintain text color on hover */
+ }
+
+
+
+ mainbody h1 {
+        color: #004aad;
+        font-size: 25px;
+        font-family: omnesprobold,Arial,Verdana,sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: normal;
+        line-height: 1.3;
+ }
+
+#p2{
+    font-size: 13px;
+    text-transform: none;
+    text-align: center;
+    letter-spacing: normal;
+    padding-left: 0;
+    margin-right: 0;
+    color: black;
+}
+
+mainbody img{
+    max-width: 70%!important;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 0;
+    box-sizing: border-box;
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,0.3);
+}
+#contentheading{ 
+    font-family: omnesprosemibold,Arial,Verdana,sans-serif !important;
+    font-style: normal;
+    color: #ff9307;
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+#content1{
+    text-align: left;
+    padding-top: 10px;
+}
+#content2{
+    text-align: left;
+    padding-top: 10px;
+}
+#contentlink{
+    padding-top: 10px;
+    text-align: left;
+}
+#contentlink a{
+    color: #43b4e8;
+}
+
+
+footer button{
+   background-color: #e820aa !important;
+   border: 0px !important;
+}
